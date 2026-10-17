@@ -1,6 +1,8 @@
 # Onhoarding steps
 
 ## 1. Dual boot linux
+Instructions will not be provided at this time.
+
 ## 2. Install docker, other programs you might need (like vscode and git)
 
 ### 2.1. Once docker is installed, we need to set up your tokens. Instructions are located at https://github.com/umroboticsteam/umrt-build
