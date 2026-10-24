@@ -65,7 +65,7 @@ You can press tab to autocomplete the branch name and it should work.
 To forward usb devices, and any CAN devices, and networks:
 
 ```shell
-./scripts/umrt-start-arm --privileged --volume="/dev/input:/dev/input"
+./scripts/umrt-start-arm --privileged --net=host --volume="/dev/input:/dev/input"
 ```
 
 This may take a while if you didn't start the download earlier since it is downloading a large docker image >1GB.
